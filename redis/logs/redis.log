@@ -1,0 +1,356 @@
+1:C 20 Oct 13:33:11.493 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:15.057 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:18.838 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:22.373 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:24.537 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:27.487 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:31.753 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:38.863 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:33:52.929 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:34:19.864 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:35:12.915 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:20.421 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:27.611 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:31.879 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:36.342 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:38.243 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:40.618 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:45.765 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:37:53.318 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:38:07.489 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:38:34.093 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:39:25.992 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:40:27.108 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:41:28.456 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:42:29.159 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:43:29.841 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:44:30.463 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:45:31.091 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:46:32.485 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:32.676 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:35.211 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:38.682 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:40.678 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:42.829 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:46.334 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:50.764 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:47:58.097 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:48:12.786 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:48:39.007 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:49:31.310 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:50:34.425 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:50:48.079 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:50:51.489 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:50:54.606 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:50:57.967 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:51:00.324 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:51:04.104 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:51:09.570 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:51:17.725 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 13:51:31.809 # Can't chdir to '/usr/local/var/db/redis/': No such file or directory
+1:C 20 Oct 2023 17:04:34.290 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 20 Oct 2023 17:04:34.356 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 20 Oct 2023 17:04:34.364 * Configuration loaded
+1:M 20 Oct 2023 17:04:34.379 * monotonic clock: POSIX clock_gettime
+1:M 20 Oct 2023 17:04:34.392 # Failed to write PID file: Permission denied
+1:M 20 Oct 2023 17:04:34.484 * Running mode=standalone, port=6379.
+1:M 20 Oct 2023 17:04:34.493 * Server initialized
+1:M 20 Oct 2023 17:04:34.512 * Loading RDB produced by version 7.2.2
+1:M 20 Oct 2023 17:04:34.561 * RDB age 22 seconds
+1:M 20 Oct 2023 17:04:34.569 * RDB memory usage when created 0.83 Mb
+1:M 20 Oct 2023 17:04:34.581 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 20 Oct 2023 17:04:34.595 * DB loaded from disk: 0.086 seconds
+1:M 20 Oct 2023 17:04:34.679 * Ready to accept connections tcp
+1:signal-handler (1697857860) Received SIGTERM scheduling shutdown...
+1:M 21 Oct 2023 11:11:00.922 * User requested shutdown...
+1:M 21 Oct 2023 11:11:00.957 * Saving the final RDB snapshot before exiting.
+1:M 21 Oct 2023 11:11:01.126 * DB saved on disk
+1:M 21 Oct 2023 11:11:01.229 * Removing the pid file.
+1:M 21 Oct 2023 11:11:01.252 # Redis is now ready to exit, bye bye...
+1:C 21 Oct 2023 11:15:46.468 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 21 Oct 2023 11:15:46.494 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 21 Oct 2023 11:15:46.505 * Configuration loaded
+1:M 21 Oct 2023 11:15:46.517 * monotonic clock: POSIX clock_gettime
+1:M 21 Oct 2023 11:15:46.573 # Failed to write PID file: Permission denied
+1:M 21 Oct 2023 11:15:46.582 * Running mode=standalone, port=6379.
+1:M 21 Oct 2023 11:15:46.609 * Server initialized
+1:M 21 Oct 2023 11:15:46.678 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 21 Oct 2023 11:15:46.717 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 21 Oct 2023 11:15:46.733 * Ready to accept connections tcp
+1:signal-handler (1697987652) Received SIGTERM scheduling shutdown...
+1:M 22 Oct 2023 23:14:12.759 * User requested shutdown...
+1:M 22 Oct 2023 23:14:12.784 * Calling fsync() on the AOF file.
+1:M 22 Oct 2023 23:14:12.800 * Saving the final RDB snapshot before exiting.
+1:M 22 Oct 2023 23:14:12.968 * DB saved on disk
+1:M 22 Oct 2023 23:14:12.984 * Removing the pid file.
+1:M 22 Oct 2023 23:14:13.010 # Redis is now ready to exit, bye bye...
+1:C 22 Oct 2023 23:14:49.165 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Oct 2023 23:14:49.182 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Oct 2023 23:14:49.189 * Configuration loaded
+1:M 22 Oct 2023 23:14:49.211 * monotonic clock: POSIX clock_gettime
+1:M 22 Oct 2023 23:14:49.237 # Failed to write PID file: Permission denied
+1:M 22 Oct 2023 23:14:49.267 * Running mode=standalone, port=6379.
+1:M 22 Oct 2023 23:14:49.320 * Server initialized
+1:M 22 Oct 2023 23:14:49.414 * Reading RDB base file on AOF loading...
+1:M 22 Oct 2023 23:14:49.424 * Loading RDB produced by version 7.2.2
+1:M 22 Oct 2023 23:14:49.434 * RDB age 129543 seconds
+1:M 22 Oct 2023 23:14:49.445 * RDB memory usage when created 0.83 Mb
+1:M 22 Oct 2023 23:14:49.453 * RDB is base AOF
+1:M 22 Oct 2023 23:14:49.468 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 22 Oct 2023 23:14:49.493 * DB loaded from base file appendonly.aof.1.base.rdb: 0.092 seconds
+1:M 22 Oct 2023 23:14:49.740 * DB loaded from append only file: 0.354 seconds
+1:M 22 Oct 2023 23:14:49.779 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 22 Oct 2023 23:14:49.787 * Ready to accept connections tcp
+1:signal-handler (1698128520) Received SIGTERM scheduling shutdown...
+1:M 24 Oct 2023 14:22:00.926 * User requested shutdown...
+1:M 24 Oct 2023 14:22:00.954 * Calling fsync() on the AOF file.
+1:M 24 Oct 2023 14:22:00.979 * Saving the final RDB snapshot before exiting.
+1:M 24 Oct 2023 14:22:01.170 * DB saved on disk
+1:M 24 Oct 2023 14:22:01.180 * Removing the pid file.
+1:M 24 Oct 2023 14:22:01.193 # Redis is now ready to exit, bye bye...
+1:C 24 Oct 2023 14:22:12.093 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 24 Oct 2023 14:22:12.108 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 24 Oct 2023 14:22:12.120 * Configuration loaded
+1:M 24 Oct 2023 14:22:12.139 * monotonic clock: POSIX clock_gettime
+1:M 24 Oct 2023 14:22:12.195 # Failed to write PID file: Permission denied
+1:M 24 Oct 2023 14:22:12.212 * Running mode=standalone, port=6379.
+1:M 24 Oct 2023 14:22:12.259 * Server initialized
+1:M 24 Oct 2023 14:22:12.309 * Reading RDB base file on AOF loading...
+1:M 24 Oct 2023 14:22:12.328 * Loading RDB produced by version 7.2.2
+1:M 24 Oct 2023 14:22:12.337 * RDB age 270386 seconds
+1:M 24 Oct 2023 14:22:12.347 * RDB memory usage when created 0.83 Mb
+1:M 24 Oct 2023 14:22:12.355 * RDB is base AOF
+1:M 24 Oct 2023 14:22:12.362 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 24 Oct 2023 14:22:12.370 * DB loaded from base file appendonly.aof.1.base.rdb: 0.073 seconds
+1:M 24 Oct 2023 14:22:12.386 * DB loaded from append only file: 0.096 seconds
+1:M 24 Oct 2023 14:22:12.407 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 24 Oct 2023 14:22:12.413 * Ready to accept connections tcp
+1:M 24 Oct 2023 15:22:13.078 * 1 changes in 3600 seconds. Saving...
+1:M 24 Oct 2023 15:22:13.102 * Background saving started by pid 22
+22:C 24 Oct 2023 15:22:13.129 * DB saved on disk
+22:C 24 Oct 2023 15:22:13.138 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 24 Oct 2023 15:22:13.212 * Background saving terminated with success
+1:M 25 Oct 2023 14:03:22.025 * 1 changes in 3600 seconds. Saving...
+1:M 25 Oct 2023 14:03:22.055 * Background saving started by pid 23
+23:C 25 Oct 2023 14:03:22.104 * DB saved on disk
+23:C 25 Oct 2023 14:03:22.109 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 25 Oct 2023 14:03:22.163 * Background saving terminated with success
+1:M 25 Oct 2023 14:47:23.160 * 100 changes in 300 seconds. Saving...
+1:M 25 Oct 2023 14:47:23.185 * Background saving started by pid 30
+30:C 25 Oct 2023 14:47:23.222 * DB saved on disk
+30:C 25 Oct 2023 14:47:23.232 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 25 Oct 2023 14:47:23.292 * Background saving terminated with success
+1:M 25 Oct 2023 14:52:24.078 * 100 changes in 300 seconds. Saving...
+1:M 25 Oct 2023 14:52:24.089 * Background saving started by pid 31
+31:C 25 Oct 2023 14:52:24.110 * DB saved on disk
+31:C 25 Oct 2023 14:52:24.127 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 25 Oct 2023 14:52:24.195 * Background saving terminated with success
+1:M 25 Oct 2023 19:11:55.866 * 1 changes in 3600 seconds. Saving...
+1:M 25 Oct 2023 19:11:55.890 * Background saving started by pid 32
+32:C 25 Oct 2023 19:11:55.923 * DB saved on disk
+32:C 25 Oct 2023 19:11:55.930 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 25 Oct 2023 19:11:56.000 * Background saving terminated with success
+1:M 25 Oct 2023 20:11:57.090 * 1 changes in 3600 seconds. Saving...
+1:M 25 Oct 2023 20:11:57.097 * Background saving started by pid 33
+33:C 25 Oct 2023 20:11:57.112 * DB saved on disk
+33:C 25 Oct 2023 20:11:57.117 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 25 Oct 2023 20:11:57.207 * Background saving terminated with success
+1:M 25 Oct 2023 22:34:32.464 * 1 changes in 3600 seconds. Saving...
+1:M 25 Oct 2023 22:34:32.477 * Background saving started by pid 34
+34:C 25 Oct 2023 22:34:32.494 * DB saved on disk
+34:C 25 Oct 2023 22:34:32.501 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 25 Oct 2023 22:34:32.767 * Background saving terminated with success
+1:M 26 Oct 2023 01:19:42.616 * 1 changes in 3600 seconds. Saving...
+1:M 26 Oct 2023 01:19:42.630 * Background saving started by pid 35
+35:C 26 Oct 2023 01:19:42.687 * DB saved on disk
+35:C 26 Oct 2023 01:19:42.700 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Oct 2023 01:19:42.917 * Background saving terminated with success
+1:M 26 Oct 2023 09:12:13.328 * 1 changes in 3600 seconds. Saving...
+1:M 26 Oct 2023 09:12:13.336 * Background saving started by pid 36
+36:C 26 Oct 2023 09:12:13.354 * DB saved on disk
+36:C 26 Oct 2023 09:12:13.359 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Oct 2023 09:12:13.447 * Background saving terminated with success
+1:M 26 Oct 2023 18:54:25.004 * Replica 192.168.65.1:<unknown-replica-port> asks for synchronization
+1:M 26 Oct 2023 18:54:25.015 * Replication backlog created, my new replication IDs are '35277fda3d5ec8240c56a54b79962ce46194dbf1' and '0000000000000000000000000000000000000000'
+1:M 26 Oct 2023 18:54:25.021 * Delay next BGSAVE for diskless SYNC
+1:M 26 Oct 2023 18:54:29.547 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 26 Oct 2023 18:54:29.560 * Background RDB transfer started by pid 37
+37:C 26 Oct 2023 18:54:29.560 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Oct 2023 18:54:29.569 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 26 Oct 2023 18:54:29.672 * Background RDB transfer terminated with success
+1:M 26 Oct 2023 18:54:29.678 * Streamed RDB transfer with replica 192.168.65.1:<unknown-replica-port> succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 26 Oct 2023 18:54:29.684 * Synchronization with replica 192.168.65.1:<unknown-replica-port> succeeded
+1:M 26 Oct 2023 18:57:50.825 * 1 changes in 3600 seconds. Saving...
+1:M 26 Oct 2023 18:57:50.834 * Background saving started by pid 38
+38:C 26 Oct 2023 18:57:50.858 * DB saved on disk
+38:C 26 Oct 2023 18:57:50.867 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Oct 2023 18:57:50.942 * Background saving terminated with success
+1:M 27 Oct 2023 09:19:44.882 * Connection with replica 192.168.65.1:<unknown-replica-port> lost.
+1:M 27 Oct 2023 09:54:20.158 * 1 changes in 3600 seconds. Saving...
+1:M 27 Oct 2023 09:54:20.169 * Background saving started by pid 39
+39:C 27 Oct 2023 09:54:20.221 * DB saved on disk
+39:C 27 Oct 2023 09:54:20.235 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Oct 2023 09:54:20.284 * Background saving terminated with success
+1:M 27 Oct 2023 09:59:21.070 * 100 changes in 300 seconds. Saving...
+1:M 27 Oct 2023 09:59:21.076 * Background saving started by pid 40
+40:C 27 Oct 2023 09:59:21.121 * DB saved on disk
+40:C 27 Oct 2023 09:59:21.127 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Oct 2023 09:59:21.191 * Background saving terminated with success
+1:M 27 Oct 2023 10:06:26.595 * 100 changes in 300 seconds. Saving...
+1:M 27 Oct 2023 10:06:26.602 * Background saving started by pid 41
+41:C 27 Oct 2023 10:06:26.706 * DB saved on disk
+41:C 27 Oct 2023 10:06:26.713 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Oct 2023 10:06:26.719 * Background saving terminated with success
+1:M 27 Oct 2023 10:07:27.056 * 10000 changes in 60 seconds. Saving...
+1:M 27 Oct 2023 10:07:27.065 * Background saving started by pid 42
+42:C 27 Oct 2023 10:07:27.400 * DB saved on disk
+42:C 27 Oct 2023 10:07:27.406 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+1:M 27 Oct 2023 10:07:27.496 * Background saving terminated with success
+1:M 27 Oct 2023 10:19:45.364 * Replication backlog freed after 3600 seconds without connected replicas.
+1:M 29 Oct 2023 20:23:02.316 * 1 changes in 3600 seconds. Saving...
+1:M 29 Oct 2023 20:23:02.349 * Background saving started by pid 43
+43:C 29 Oct 2023 20:23:03.090 * DB saved on disk
+43:C 29 Oct 2023 20:23:03.103 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+1:M 29 Oct 2023 20:23:03.166 * Background saving terminated with success
+1:C 31 Oct 2023 12:28:02.957 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 31 Oct 2023 12:28:02.986 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 31 Oct 2023 12:28:03.005 * Configuration loaded
+1:M 31 Oct 2023 12:28:03.034 * monotonic clock: POSIX clock_gettime
+1:M 31 Oct 2023 12:28:03.062 # Failed to write PID file: Permission denied
+1:M 31 Oct 2023 12:28:03.089 * Running mode=standalone, port=6379.
+1:M 31 Oct 2023 12:28:03.099 * Server initialized
+1:M 31 Oct 2023 12:28:03.146 * Reading RDB base file on AOF loading...
+1:M 31 Oct 2023 12:28:03.164 * Loading RDB produced by version 7.2.2
+1:M 31 Oct 2023 12:28:03.275 * RDB age 868337 seconds
+1:M 31 Oct 2023 12:28:03.306 * RDB memory usage when created 0.83 Mb
+1:M 31 Oct 2023 12:28:03.313 * RDB is base AOF
+1:M 31 Oct 2023 12:28:03.323 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 31 Oct 2023 12:28:03.331 * DB loaded from base file appendonly.aof.1.base.rdb: 0.191 seconds
+1:M 31 Oct 2023 12:28:09.314 * DB loaded from incr file appendonly.aof.1.incr.aof: 5.939 seconds
+1:M 31 Oct 2023 12:28:09.336 * DB loaded from append only file: 6.195 seconds
+1:M 31 Oct 2023 12:28:09.460 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 31 Oct 2023 12:28:09.467 * Ready to accept connections tcp
+1:signal-handler (1698726505) Received SIGTERM scheduling shutdown...
+1:M 31 Oct 2023 12:28:25.426 * User requested shutdown...
+1:M 31 Oct 2023 12:28:25.458 * Calling fsync() on the AOF file.
+1:M 31 Oct 2023 12:28:25.465 * Saving the final RDB snapshot before exiting.
+1:M 31 Oct 2023 12:28:26.828 * DB saved on disk
+1:M 31 Oct 2023 12:28:26.836 * Removing the pid file.
+1:M 31 Oct 2023 12:28:26.847 # Redis is now ready to exit, bye bye...
+1:C 31 Oct 2023 12:28:34.339 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 31 Oct 2023 12:28:34.368 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 31 Oct 2023 12:28:34.399 * Configuration loaded
+1:M 31 Oct 2023 12:28:34.416 * monotonic clock: POSIX clock_gettime
+1:M 31 Oct 2023 12:28:34.436 # Failed to write PID file: Permission denied
+1:M 31 Oct 2023 12:28:34.451 * Running mode=standalone, port=6379.
+1:M 31 Oct 2023 12:28:34.472 * Server initialized
+1:M 31 Oct 2023 12:28:34.643 * Reading RDB base file on AOF loading...
+1:M 31 Oct 2023 12:28:34.665 * Loading RDB produced by version 7.2.2
+1:M 31 Oct 2023 12:28:34.675 * RDB age 868368 seconds
+1:M 31 Oct 2023 12:28:34.693 * RDB memory usage when created 0.83 Mb
+1:M 31 Oct 2023 12:28:34.934 * RDB is base AOF
+1:M 31 Oct 2023 12:28:34.952 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 31 Oct 2023 12:28:35.013 * DB loaded from base file appendonly.aof.1.base.rdb: 0.400 seconds
+1:M 31 Oct 2023 12:28:37.821 * DB loaded from incr file appendonly.aof.1.incr.aof: 2.786 seconds
+1:M 31 Oct 2023 12:28:37.844 * DB loaded from append only file: 3.228 seconds
+1:M 31 Oct 2023 12:28:38.134 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 31 Oct 2023 12:28:38.140 * Ready to accept connections tcp
+1:M 31 Oct 2023 12:28:39.630 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 31 Oct 2023 12:28:39.637 * Full resync requested by replica 172.16.0.50:6379
+1:M 31 Oct 2023 12:28:39.648 * Replication backlog created, my new replication IDs are '91dcdc2da947bb38a42d73a852514a816f50a069' and '0000000000000000000000000000000000000000'
+1:M 31 Oct 2023 12:28:39.702 * Delay next BGSAVE for diskless SYNC
+1:M 31 Oct 2023 12:28:44.695 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 31 Oct 2023 12:28:44.791 * Background RDB transfer started by pid 21
+21:C 31 Oct 2023 12:28:44.947 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 31 Oct 2023 12:28:45.007 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 31 Oct 2023 12:28:45.116 * Background RDB transfer terminated with success
+1:M 31 Oct 2023 12:28:45.121 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 31 Oct 2023 12:28:45.129 * Synchronization with replica 172.16.0.50:6379 succeeded
+1:M 31 Oct 2023 12:29:35.044 * 10000 changes in 60 seconds. Saving...
+1:M 31 Oct 2023 12:29:35.062 * Background saving started by pid 22
+22:C 31 Oct 2023 12:29:35.550 * DB saved on disk
+22:C 31 Oct 2023 12:29:35.581 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 31 Oct 2023 12:29:35.691 * Background saving terminated with success
+1:signal-handler (1698726668) Received SIGTERM scheduling shutdown...
+1:M 31 Oct 2023 12:31:08.159 * User requested shutdown...
+1:M 31 Oct 2023 12:31:08.200 * 1 of 1 replicas are in sync when shutting down.
+1:M 31 Oct 2023 12:31:08.209 * Calling fsync() on the AOF file.
+1:M 31 Oct 2023 12:31:08.216 * Saving the final RDB snapshot before exiting.
+1:M 31 Oct 2023 12:31:09.815 * DB saved on disk
+1:M 31 Oct 2023 12:31:09.828 * Removing the pid file.
+1:M 31 Oct 2023 12:31:09.840 # Redis is now ready to exit, bye bye...
+1:C 31 Oct 2023 12:32:05.793 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 31 Oct 2023 12:32:05.816 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 31 Oct 2023 12:32:05.910 * Configuration loaded
+1:M 31 Oct 2023 12:32:05.987 * monotonic clock: POSIX clock_gettime
+1:M 31 Oct 2023 12:32:06.079 # Failed to write PID file: Permission denied
+1:M 31 Oct 2023 12:32:06.096 * Running mode=standalone, port=6379.
+1:M 31 Oct 2023 12:32:06.258 * Server initialized
+1:M 31 Oct 2023 12:32:06.560 * Reading RDB base file on AOF loading...
+1:M 31 Oct 2023 12:32:06.609 * Loading RDB produced by version 7.2.2
+1:M 31 Oct 2023 12:32:06.670 * RDB age 868580 seconds
+1:M 31 Oct 2023 12:32:06.682 * RDB memory usage when created 0.83 Mb
+1:M 31 Oct 2023 12:32:06.693 * RDB is base AOF
+1:M 31 Oct 2023 12:32:06.701 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 31 Oct 2023 12:32:06.785 * DB loaded from base file appendonly.aof.1.base.rdb: 0.227 seconds
+1:M 31 Oct 2023 12:32:09.434 * DB loaded from incr file appendonly.aof.1.incr.aof: 2.634 seconds
+1:M 31 Oct 2023 12:32:09.439 * DB loaded from append only file: 3.040 seconds
+1:M 31 Oct 2023 12:32:09.458 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 31 Oct 2023 12:32:09.465 * Ready to accept connections tcp
+1:M 31 Oct 2023 12:32:09.664 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 31 Oct 2023 12:32:09.674 * Full resync requested by replica 172.16.0.50:6379
+1:M 31 Oct 2023 12:32:09.685 * Replication backlog created, my new replication IDs are '5dd5854c42ae99363c26c59abf6afdbcfc4b9ab3' and '0000000000000000000000000000000000000000'
+1:M 31 Oct 2023 12:32:09.694 * Delay next BGSAVE for diskless SYNC
+1:M 31 Oct 2023 12:32:14.951 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 31 Oct 2023 12:32:14.998 * Background RDB transfer started by pid 21
+21:C 31 Oct 2023 12:32:15.093 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 31 Oct 2023 12:32:15.103 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 31 Oct 2023 12:32:15.210 * Background RDB transfer terminated with success
+1:M 31 Oct 2023 12:32:15.222 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 31 Oct 2023 12:32:15.240 * Synchronization with replica 172.16.0.50:6379 succeeded
+1:M 31 Oct 2023 12:33:07.058 * 10000 changes in 60 seconds. Saving...
+1:M 31 Oct 2023 12:33:07.071 * Background saving started by pid 22
+22:C 31 Oct 2023 12:33:07.949 * DB saved on disk
+22:C 31 Oct 2023 12:33:07.962 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 31 Oct 2023 12:33:08.076 * Background saving terminated with success
+1:M 31 Oct 2023 13:33:09.028 * 1 changes in 3600 seconds. Saving...
+1:M 31 Oct 2023 13:33:09.048 * Background saving started by pid 24
+24:C 31 Oct 2023 13:33:09.302 * DB saved on disk
+24:C 31 Oct 2023 13:33:09.306 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+1:M 31 Oct 2023 13:33:09.372 * Background saving terminated with success
+1:M 31 Oct 2023 15:30:11.549 * Creating AOF incr file appendonly.aof.2.incr.aof on background rewrite
+1:M 31 Oct 2023 15:30:11.559 * Background append only file rewriting started by pid 25
+25:C 31 Oct 2023 15:30:11.892 * Successfully created the temporary AOF base file temp-rewriteaof-bg-25.aof
+25:C 31 Oct 2023 15:30:11.897 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+1:M 31 Oct 2023 15:30:11.980 * Background AOF rewrite terminated with success
+1:M 31 Oct 2023 15:30:11.995 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-25.aof into appendonly.aof.2.base.rdb
+1:M 31 Oct 2023 15:30:12.013 * Removing the history file appendonly.aof.1.incr.aof in the background
+1:M 31 Oct 2023 15:30:12.027 * Removing the history file appendonly.aof.1.base.rdb in the background
+1:M 31 Oct 2023 15:30:12.056 * Background AOF rewrite finished successfully
+1:M 31 Oct 2023 18:55:20.603 * Connection with replica 172.16.0.50:6379 lost.
+1:M 31 Oct 2023 18:55:21.325 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 31 Oct 2023 18:55:21.340 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 31211.
+1:M 31 Oct 2023 19:10:14.215 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 31 Oct 2023 19:10:14.267 * Connection with replica 172.16.0.50:6379 lost.
+1:M 31 Oct 2023 19:10:14.440 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 31 Oct 2023 19:10:14.446 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 32191.
+1:M 01 Nov 2023 00:30:33.686 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 01 Nov 2023 00:30:33.695 * Connection with replica 172.16.0.50:6379 lost.
+1:M 01 Nov 2023 00:30:33.785 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 01 Nov 2023 00:30:33.791 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 54059.
+1:M 01 Nov 2023 02:31:22.289 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 01 Nov 2023 02:31:17.987 * Connection with replica 172.16.0.50:6379 lost.
+1:M 01 Nov 2023 02:31:18.121 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 01 Nov 2023 02:31:18.127 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 54115.
+1:M 01 Nov 2023 04:31:21.965 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 01 Nov 2023 04:31:21.975 * Connection with replica 172.16.0.50:6379 lost.
+1:M 01 Nov 2023 04:31:22.046 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 01 Nov 2023 04:31:22.051 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 54129.
+1:M 01 Nov 2023 06:12:33.155 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 01 Nov 2023 06:12:33.169 * Connection with replica 172.16.0.50:6379 lost.
+1:M 01 Nov 2023 06:12:33.281 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 01 Nov 2023 06:12:33.287 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 54185.
+1:M 01 Nov 2023 06:48:30.536 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 01 Nov 2023 06:48:30.573 * Connection with replica 172.16.0.50:6379 lost.
+1:M 01 Nov 2023 06:48:30.638 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 01 Nov 2023 06:48:30.643 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 54255.

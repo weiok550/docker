@@ -1,3 +1,6 @@
 .idea
 .vscode
 .log
+*/data/*
+*/log/*
+.DS_Store
