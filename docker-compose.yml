@@ -87,7 +87,7 @@ services:
       TZ: Asia/Shanghai
     volumes: 
       - ./redis2/logs:/redis/logs    #日志文件地址是在配置文件中配置的[logfile项]，宿主容器映射日志文件目录要与配置文件中的日志目录一致
-      - ./redis2/data:/data  # 持久化数据
+      #- ./redis2/data:/data  # 持久化数据， 作为从节点，win11上挂载数据盘会导致一直尝试复制，可以注释掉
       - ./redis2/conf:/redis/conf # 在宿主机./redis/conf/下放redis.conf配置文件，注意需要将 daemonized 配置项注释掉（该配置项控制是否后台运行），否则容器运行后貌似无法探活，docker认为服务未启动会一直重启
     command: redis-server  /redis/conf/redis.conf --slaveof 172.16.0.40 6379 # 启动redis-server 配置文件路径要以容器中的路径为准
 

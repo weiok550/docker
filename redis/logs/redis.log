@@ -354,3 +354,1308 @@
 1:M 01 Nov 2023 06:48:30.573 * Connection with replica 172.16.0.50:6379 lost.
 1:M 01 Nov 2023 06:48:30.638 * Replica 172.16.0.50:6379 asks for synchronization
 1:M 01 Nov 2023 06:48:30.643 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 54255.
+1:C 02 Nov 2023 01:29:57.765 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 02 Nov 2023 01:29:57.767 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 02 Nov 2023 01:29:57.769 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 02 Nov 2023 01:29:57.771 * Configuration loaded
+1:M 02 Nov 2023 01:29:57.772 * monotonic clock: POSIX clock_gettime
+1:M 02 Nov 2023 01:29:57.775 # Failed to write PID file: Permission denied
+1:M 02 Nov 2023 01:29:57.777 * Running mode=standalone, port=6379.
+1:M 02 Nov 2023 01:29:57.780 * Server initialized
+1:M 02 Nov 2023 01:29:57.791 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 02 Nov 2023 01:29:57.805 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 02 Nov 2023 01:29:57.808 * Ready to accept connections tcp
+1:M 02 Nov 2023 01:29:57.829 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:29:57.831 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:29:57.834 * Replication backlog created, my new replication IDs are '72837445e190e4bbf3d2b5a1f298eda49829188f' and '0000000000000000000000000000000000000000'
+1:M 02 Nov 2023 01:29:57.835 * Delay next BGSAVE for diskless SYNC
+1:M 02 Nov 2023 01:30:02.822 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:30:02.824 * Background RDB transfer started by pid 21
+21:C 02 Nov 2023 01:30:02.824 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:02.826 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:02.840 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:02.849 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:02.850 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:02.851 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:02.927 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:07.839 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:30:07.841 * Background RDB transfer started by pid 22
+22:C 02 Nov 2023 01:30:07.843 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:07.846 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:07.864 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:07.875 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:07.877 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:07.880 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:07.944 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:12.857 * Starting BGSAVE for SYNC with target: replicas sockets
+23:C 02 Nov 2023 01:30:12.859 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:12.859 * Background RDB transfer started by pid 23
+1:M 02 Nov 2023 01:30:12.862 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:12.875 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:12.888 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:12.890 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:12.892 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:12.964 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:17.877 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:30:17.880 * Background RDB transfer started by pid 24
+24:C 02 Nov 2023 01:30:17.880 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:17.882 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:17.893 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:17.900 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:17.901 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:17.903 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:17.982 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:22.904 * Starting BGSAVE for SYNC with target: replicas sockets
+25:C 02 Nov 2023 01:30:22.914 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:22.914 * Background RDB transfer started by pid 25
+1:M 02 Nov 2023 01:30:22.924 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:22.962 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:22.972 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:22.974 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:22.976 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:23.022 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:27.943 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:30:27.945 * Background RDB transfer started by pid 26
+26:C 02 Nov 2023 01:30:27.945 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:27.947 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:27.959 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:27.967 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:27.968 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:27.970 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:28.048 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:32.965 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:30:32.974 * Background RDB transfer started by pid 27
+27:C 02 Nov 2023 01:30:32.975 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:32.984 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:33.014 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:33.026 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:33.028 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:33.029 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:33.081 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:38.003 * Starting BGSAVE for SYNC with target: replicas sockets
+28:C 02 Nov 2023 01:30:38.009 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:38.009 * Background RDB transfer started by pid 28
+1:M 02 Nov 2023 01:30:38.016 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:38.047 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:38.061 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:38.063 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:38.064 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:38.114 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:43.034 * Starting BGSAVE for SYNC with target: replicas sockets
+29:C 02 Nov 2023 01:30:43.038 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:43.038 * Background RDB transfer started by pid 29
+1:M 02 Nov 2023 01:30:43.042 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:43.061 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:43.070 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:43.071 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:43.072 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:43.144 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:48.062 * Starting BGSAVE for SYNC with target: replicas sockets
+30:C 02 Nov 2023 01:30:48.064 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:48.064 * Background RDB transfer started by pid 30
+1:M 02 Nov 2023 01:30:48.066 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:48.076 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:48.086 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:48.087 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:48.089 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:48.167 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:53.087 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:30:53.089 * Background RDB transfer started by pid 31
+31:C 02 Nov 2023 01:30:53.089 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:53.091 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:53.108 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:53.121 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:53.123 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:53.125 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:53.192 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:30:58.113 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:30:58.116 * Background RDB transfer started by pid 32
+32:C 02 Nov 2023 01:30:58.117 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:30:58.120 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:30:58.146 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:30:58.155 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:30:58.156 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:30:58.157 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:30:58.219 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:03.145 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:03.151 * Background RDB transfer started by pid 33
+33:C 02 Nov 2023 01:31:03.151 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:03.157 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:03.176 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:03.185 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:03.187 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:03.189 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:03.255 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:08.180 * Starting BGSAVE for SYNC with target: replicas sockets
+34:C 02 Nov 2023 01:31:08.183 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:08.184 * Background RDB transfer started by pid 34
+1:M 02 Nov 2023 01:31:08.187 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:08.209 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:08.218 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:08.219 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:08.220 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:08.288 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:13.209 * Starting BGSAVE for SYNC with target: replicas sockets
+35:C 02 Nov 2023 01:31:13.214 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:13.214 * Background RDB transfer started by pid 35
+1:M 02 Nov 2023 01:31:13.218 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:13.239 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:13.251 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:13.252 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:13.254 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:13.321 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:18.248 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:18.257 * Background RDB transfer started by pid 36
+36:C 02 Nov 2023 01:31:18.258 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:18.267 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:18.303 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:18.310 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:18.311 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:18.312 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:18.363 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:23.286 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:23.291 * Background RDB transfer started by pid 37
+37:C 02 Nov 2023 01:31:23.291 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:23.296 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:23.325 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:23.334 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:23.335 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:23.336 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:23.395 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:28.319 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:28.328 * Background RDB transfer started by pid 38
+38:C 02 Nov 2023 01:31:28.328 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:28.337 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:28.365 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:28.384 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:28.386 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:28.387 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:28.435 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:33.355 * Starting BGSAVE for SYNC with target: replicas sockets
+39:C 02 Nov 2023 01:31:33.358 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:33.357 * Background RDB transfer started by pid 39
+1:M 02 Nov 2023 01:31:33.360 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:33.373 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:33.385 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:33.387 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:33.389 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:33.461 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:38.383 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:38.387 * Background RDB transfer started by pid 40
+40:C 02 Nov 2023 01:31:38.387 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:38.391 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:38.411 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:38.421 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:38.422 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:38.423 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:38.491 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:43.413 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:43.422 * Background RDB transfer started by pid 41
+41:C 02 Nov 2023 01:31:43.425 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:43.433 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:43.474 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:43.491 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:43.493 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:43.495 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:43.526 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:48.450 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:48.454 * Background RDB transfer started by pid 49
+49:C 02 Nov 2023 01:31:48.455 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:48.459 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:48.483 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:48.499 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:48.501 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:48.504 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:48.559 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:53.485 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:31:53.490 * Background RDB transfer started by pid 51
+51:C 02 Nov 2023 01:31:53.492 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:53.498 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:53.523 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:53.539 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:53.542 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:53.544 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:53.593 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:31:58.520 * Starting BGSAVE for SYNC with target: replicas sockets
+52:C 02 Nov 2023 01:31:58.529 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:31:58.529 * Background RDB transfer started by pid 52
+1:M 02 Nov 2023 01:31:58.535 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:31:58.558 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:31:58.566 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:31:58.567 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:31:58.569 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:31:58.634 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:03.556 * Starting BGSAVE for SYNC with target: replicas sockets
+54:C 02 Nov 2023 01:32:03.559 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:03.559 * Background RDB transfer started by pid 54
+1:M 02 Nov 2023 01:32:03.562 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:03.574 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:03.583 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:03.585 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:03.586 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:03.665 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:08.591 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:08.600 * Background RDB transfer started by pid 55
+55:C 02 Nov 2023 01:32:08.605 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:08.613 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:08.646 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:08.661 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:08.663 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:08.665 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:08.705 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:13.632 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:13.640 * Background RDB transfer started by pid 56
+56:C 02 Nov 2023 01:32:13.641 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:13.650 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:13.687 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:13.701 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:13.704 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:13.707 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:13.745 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:18.673 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:18.682 * Background RDB transfer started by pid 57
+57:C 02 Nov 2023 01:32:18.683 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:18.691 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:18.729 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:18.742 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:18.744 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:18.746 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:18.787 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:23.714 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:23.723 * Background RDB transfer started by pid 58
+58:C 02 Nov 2023 01:32:23.724 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:23.732 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:23.765 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:23.777 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:23.779 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:23.781 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:23.830 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:28.755 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:28.761 * Background RDB transfer started by pid 59
+59:C 02 Nov 2023 01:32:28.762 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:28.769 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:28.797 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:28.808 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:28.810 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:28.812 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:28.867 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:33.796 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:33.805 * Background RDB transfer started by pid 60
+60:C 02 Nov 2023 01:32:33.806 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:33.815 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:33.848 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:33.861 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:33.863 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:33.864 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:33.911 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:38.834 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:38.843 * Background RDB transfer started by pid 61
+61:C 02 Nov 2023 01:32:38.845 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:38.853 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:38.891 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:38.903 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:38.905 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:38.906 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:38.950 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:43.872 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:43.878 * Background RDB transfer started by pid 62
+62:C 02 Nov 2023 01:32:43.879 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:43.885 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:43.920 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:43.931 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:43.932 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:43.934 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:43.982 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:48.905 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:48.911 * Background RDB transfer started by pid 63
+63:C 02 Nov 2023 01:32:48.912 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:48.918 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:48.958 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:48.969 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:48.971 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:48.973 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:49.015 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:53.937 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:53.941 * Background RDB transfer started by pid 64
+64:C 02 Nov 2023 01:32:53.942 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:53.947 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:53.968 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:53.984 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:53.987 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:53.989 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:54.046 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:32:58.967 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:32:58.970 * Background RDB transfer started by pid 65
+65:C 02 Nov 2023 01:32:58.971 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:32:58.974 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:32:58.993 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:32:59.002 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:32:59.003 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:32:59.004 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:32:59.073 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:04.996 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:04.998 * Background RDB transfer started by pid 66
+66:C 02 Nov 2023 01:33:04.999 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:05.001 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:05.014 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:05.024 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:05.025 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:05.026 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:05.102 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:10.017 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:10.019 * Background RDB transfer started by pid 67
+67:C 02 Nov 2023 01:33:10.019 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:10.021 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:10.037 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:10.047 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:10.048 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:10.049 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:10.120 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:15.039 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:15.041 * Background RDB transfer started by pid 68
+68:C 02 Nov 2023 01:33:15.041 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:15.043 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:15.055 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:15.067 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:15.069 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:15.071 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:15.143 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:20.065 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:20.070 * Background RDB transfer started by pid 69
+69:C 02 Nov 2023 01:33:20.071 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:20.077 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:20.100 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:20.111 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:20.113 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:20.115 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:20.175 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:25.102 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:25.107 * Background RDB transfer started by pid 70
+70:C 02 Nov 2023 01:33:25.108 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:25.114 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:25.141 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:25.153 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:25.155 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:25.157 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:25.211 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:30.135 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:30.139 * Background RDB transfer started by pid 71
+71:C 02 Nov 2023 01:33:30.140 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:30.145 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:30.188 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:30.206 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:30.207 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:30.209 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:30.243 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:35.170 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:35.178 * Background RDB transfer started by pid 72
+72:C 02 Nov 2023 01:33:35.180 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:35.188 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:35.224 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:35.234 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:35.235 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:35.237 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:35.284 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:40.202 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:40.205 * Background RDB transfer started by pid 73
+73:C 02 Nov 2023 01:33:40.206 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:40.209 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:40.226 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:40.237 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:40.238 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:40.239 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:40.309 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:45.233 * Starting BGSAVE for SYNC with target: replicas sockets
+74:C 02 Nov 2023 01:33:45.238 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:45.238 * Background RDB transfer started by pid 74
+1:M 02 Nov 2023 01:33:45.244 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:45.271 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:45.279 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:45.280 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:45.281 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:45.344 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:50.271 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:50.277 * Background RDB transfer started by pid 75
+75:C 02 Nov 2023 01:33:50.278 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:50.285 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:50.307 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:50.322 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:50.324 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:50.326 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:50.381 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:33:55.309 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:33:55.318 * Background RDB transfer started by pid 76
+76:C 02 Nov 2023 01:33:55.320 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:33:55.329 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:33:55.362 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:33:55.373 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:33:55.375 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:33:55.377 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:33:55.426 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:00.351 * Starting BGSAVE for SYNC with target: replicas sockets
+77:C 02 Nov 2023 01:34:00.358 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:00.358 * Background RDB transfer started by pid 77
+1:M 02 Nov 2023 01:34:00.365 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:00.400 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:00.410 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:00.412 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:00.413 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:00.463 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:05.385 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:05.392 * Background RDB transfer started by pid 78
+78:C 02 Nov 2023 01:34:05.393 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:05.402 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:05.437 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:05.448 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:05.450 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:05.453 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:05.497 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:10.417 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:10.419 * Background RDB transfer started by pid 79
+79:C 02 Nov 2023 01:34:10.419 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:10.421 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:10.430 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:10.437 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:10.438 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:10.439 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:10.521 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:15.445 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:15.454 * Background RDB transfer started by pid 80
+80:C 02 Nov 2023 01:34:15.459 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:15.467 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:15.507 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:15.526 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:15.529 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:15.532 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:15.560 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:20.483 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:20.492 * Background RDB transfer started by pid 81
+81:C 02 Nov 2023 01:34:20.492 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:20.500 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:20.541 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:20.555 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:20.557 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:20.558 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:20.597 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:25.520 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:25.529 * Background RDB transfer started by pid 82
+82:C 02 Nov 2023 01:34:25.530 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:25.541 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:25.584 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:25.599 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:25.601 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:25.603 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:25.635 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:30.563 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:30.571 * Background RDB transfer started by pid 83
+83:C 02 Nov 2023 01:34:30.572 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:30.580 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:30.602 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:30.610 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:30.611 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:30.612 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:30.677 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:35.598 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:35.601 * Background RDB transfer started by pid 84
+84:C 02 Nov 2023 01:34:35.601 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:35.603 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:35.616 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:35.627 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:35.630 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:35.632 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:35.704 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:40.623 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:40.625 * Background RDB transfer started by pid 85
+85:C 02 Nov 2023 01:34:40.626 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:40.628 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:40.636 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:40.645 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:40.647 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:40.649 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:40.728 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:45.654 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:45.663 * Background RDB transfer started by pid 86
+86:C 02 Nov 2023 01:34:45.665 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:45.673 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:45.696 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:45.704 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:45.705 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:45.706 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:45.770 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:50.691 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:50.693 * Background RDB transfer started by pid 87
+87:C 02 Nov 2023 01:34:50.693 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:50.694 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:50.707 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:50.714 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:50.715 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:50.716 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:50.796 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:34:55.715 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:34:55.717 * Background RDB transfer started by pid 88
+88:C 02 Nov 2023 01:34:55.718 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:34:55.719 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:34:55.729 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:34:55.736 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:34:55.736 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:34:55.737 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:34:55.820 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:00.742 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:00.751 * Background RDB transfer started by pid 89
+89:C 02 Nov 2023 01:35:00.753 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:00.761 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:00.800 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:00.815 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:00.817 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:00.819 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:00.857 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:05.780 * Starting BGSAVE for SYNC with target: replicas sockets
+90:C 02 Nov 2023 01:35:05.788 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:05.788 * Background RDB transfer started by pid 90
+1:M 02 Nov 2023 01:35:05.797 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:05.831 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:05.846 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:05.848 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:05.851 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:05.895 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:10.814 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:10.816 * Background RDB transfer started by pid 91
+91:C 02 Nov 2023 01:35:10.817 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:10.818 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:10.828 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:10.835 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:10.836 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:10.837 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:10.919 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:15.842 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:15.850 * Background RDB transfer started by pid 92
+92:C 02 Nov 2023 01:35:15.852 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:15.862 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:15.902 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:15.911 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:15.913 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:15.914 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:15.956 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:20.879 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:20.884 * Background RDB transfer started by pid 93
+93:C 02 Nov 2023 01:35:20.884 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:20.887 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:20.907 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:20.919 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:20.921 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:20.923 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:20.987 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:25.908 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:25.911 * Background RDB transfer started by pid 94
+94:C 02 Nov 2023 01:35:25.911 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:25.914 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:25.928 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:25.940 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:25.943 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:25.946 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:26.013 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:30.937 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:30.944 * Background RDB transfer started by pid 95
+95:C 02 Nov 2023 01:35:30.944 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:30.951 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:30.977 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:30.993 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:30.995 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:30.997 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:31.049 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:35.972 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:35.978 * Background RDB transfer started by pid 96
+96:C 02 Nov 2023 01:35:35.979 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:35.985 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:36.011 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:36.025 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:36.027 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:36.029 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:36.082 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:41.004 * Starting BGSAVE for SYNC with target: replicas sockets
+97:C 02 Nov 2023 01:35:41.009 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:41.009 * Background RDB transfer started by pid 97
+1:M 02 Nov 2023 01:35:41.013 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:41.039 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:41.048 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:41.049 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:41.050 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:41.113 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:46.038 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:46.047 * Background RDB transfer started by pid 98
+98:C 02 Nov 2023 01:35:46.048 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:46.058 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:46.097 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:46.111 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:46.114 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:46.116 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:46.154 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:51.077 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:51.080 * Background RDB transfer started by pid 99
+99:C 02 Nov 2023 01:35:51.080 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:51.082 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:51.093 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:51.100 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:51.101 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:51.102 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:51.184 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:35:56.110 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:35:56.114 * Background RDB transfer started by pid 100
+100:C 02 Nov 2023 01:35:56.116 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:35:56.121 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:35:56.147 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:35:56.163 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:35:56.166 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:35:56.169 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:35:56.219 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:01.144 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:01.151 * Background RDB transfer started by pid 101
+101:C 02 Nov 2023 01:36:01.152 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:01.159 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:01.187 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:01.202 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:01.203 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:01.204 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:01.255 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:06.180 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:06.182 * Background RDB transfer started by pid 102
+102:C 02 Nov 2023 01:36:06.182 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:06.184 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:06.195 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:06.202 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:06.203 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:06.204 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:06.284 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:11.207 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:11.209 * Background RDB transfer started by pid 103
+103:C 02 Nov 2023 01:36:11.209 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:11.211 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:11.224 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:11.229 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:11.231 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:11.232 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:11.311 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:16.234 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:16.242 * Background RDB transfer started by pid 104
+104:C 02 Nov 2023 01:36:16.244 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:16.253 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:16.306 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:16.321 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:16.323 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:16.324 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:16.346 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:21.272 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:21.278 * Background RDB transfer started by pid 105
+105:C 02 Nov 2023 01:36:21.278 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:21.284 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:21.318 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:21.332 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:21.334 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:21.337 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:21.382 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:26.303 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:26.306 * Background RDB transfer started by pid 106
+106:C 02 Nov 2023 01:36:26.307 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:26.309 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:26.329 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:26.339 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:26.340 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:26.342 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:26.409 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:31.334 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:31.340 * Background RDB transfer started by pid 107
+107:C 02 Nov 2023 01:36:31.341 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:31.348 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:31.385 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:31.398 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:31.400 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:31.402 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:31.445 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:36.369 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:36.377 * Background RDB transfer started by pid 108
+108:C 02 Nov 2023 01:36:36.379 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:36.388 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:36.427 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:36.439 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:36.440 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:36.442 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:36.483 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:41.403 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:41.406 * Background RDB transfer started by pid 109
+109:C 02 Nov 2023 01:36:41.407 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:41.411 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:41.427 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:41.437 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:41.439 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:41.440 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:41.511 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:46.437 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:46.446 * Background RDB transfer started by pid 110
+110:C 02 Nov 2023 01:36:46.448 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:46.457 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:46.482 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:46.496 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:46.497 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:46.499 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:46.551 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:51.476 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:51.484 * Background RDB transfer started by pid 111
+111:C 02 Nov 2023 01:36:51.486 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:51.496 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:51.526 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:51.535 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:51.537 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:51.538 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:51.590 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:36:56.512 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:36:56.516 * Background RDB transfer started by pid 112
+112:C 02 Nov 2023 01:36:56.516 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:36:56.519 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:36:56.539 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:36:56.548 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:36:56.550 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:36:56.551 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:36:56.619 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:01.548 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:01.553 * Background RDB transfer started by pid 113
+113:C 02 Nov 2023 01:37:01.554 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:01.560 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:01.594 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:01.606 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:01.608 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:01.609 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:01.658 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:06.582 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:06.587 * Background RDB transfer started by pid 114
+114:C 02 Nov 2023 01:37:06.589 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:06.594 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:06.614 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:06.626 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:06.627 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:06.629 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:06.690 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:11.609 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:11.611 * Background RDB transfer started by pid 115
+115:C 02 Nov 2023 01:37:11.612 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:11.614 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:11.625 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:11.635 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:11.637 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:11.639 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:11.714 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:16.639 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:16.648 * Background RDB transfer started by pid 116
+116:C 02 Nov 2023 01:37:16.650 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:16.660 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:16.699 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:16.718 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:16.720 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:16.722 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:16.755 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:21.675 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:21.679 * Background RDB transfer started by pid 117
+117:C 02 Nov 2023 01:37:21.679 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:21.684 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:21.705 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:21.714 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:21.716 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:21.717 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:21.784 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:26.703 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:26.704 * Background RDB transfer started by pid 118
+118:C 02 Nov 2023 01:37:26.705 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:26.706 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:26.719 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:26.724 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:26.725 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:26.726 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:26.807 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:31.729 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:31.737 * Background RDB transfer started by pid 119
+119:C 02 Nov 2023 01:37:31.738 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:31.746 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:31.786 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:31.800 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:31.802 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:31.805 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:31.842 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:36.761 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:36.767 * Background RDB transfer started by pid 120
+120:C 02 Nov 2023 01:37:36.768 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:36.774 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:36.796 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:36.815 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:36.818 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:36.820 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:36.872 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:41.797 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:41.799 * Background RDB transfer started by pid 121
+121:C 02 Nov 2023 01:37:41.800 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:41.802 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:41.811 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:41.821 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:41.823 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:41.825 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:41.902 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:46.825 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:46.827 * Background RDB transfer started by pid 122
+122:C 02 Nov 2023 01:37:46.827 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:46.829 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:46.845 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:46.856 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:46.858 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:46.859 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:46.930 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:51.849 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:51.856 * Background RDB transfer started by pid 123
+123:C 02 Nov 2023 01:37:51.856 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:51.861 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:51.890 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:51.899 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:51.901 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:51.903 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:51.959 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:37:56.879 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:37:56.881 * Background RDB transfer started by pid 124
+124:C 02 Nov 2023 01:37:56.881 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:37:56.883 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:37:56.895 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:37:56.902 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:37:56.904 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:37:56.905 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:37:56.984 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:01.904 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:01.909 * Background RDB transfer started by pid 125
+125:C 02 Nov 2023 01:38:01.909 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:01.914 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:01.943 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:01.953 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:01.954 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:01.956 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:02.013 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:06.936 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:06.941 * Background RDB transfer started by pid 126
+126:C 02 Nov 2023 01:38:06.942 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:06.947 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:06.971 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:06.985 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:06.987 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:06.988 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:07.045 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:11.972 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:11.977 * Background RDB transfer started by pid 127
+127:C 02 Nov 2023 01:38:11.978 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:11.984 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:12.004 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:12.017 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:12.019 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:12.021 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:12.083 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:17.008 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:17.014 * Background RDB transfer started by pid 128
+128:C 02 Nov 2023 01:38:17.015 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:17.021 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:17.048 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:17.059 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:17.061 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:17.062 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:17.118 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:22.045 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:22.053 * Background RDB transfer started by pid 129
+129:C 02 Nov 2023 01:38:22.055 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:22.063 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:22.096 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:22.112 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:22.114 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:22.115 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:22.160 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:27.085 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:27.093 * Background RDB transfer started by pid 130
+130:C 02 Nov 2023 01:38:27.095 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:27.104 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:27.133 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:27.149 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:27.150 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:27.151 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:27.198 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:32.121 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:32.122 * Background RDB transfer started by pid 131
+131:C 02 Nov 2023 01:38:32.123 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:32.125 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:32.136 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:32.145 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:32.147 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:32.148 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:32.225 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:37.146 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:37.151 * Background RDB transfer started by pid 132
+132:C 02 Nov 2023 01:38:37.152 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:37.157 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:37.180 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:37.192 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:37.193 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:37.194 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:37.256 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:42.183 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:42.191 * Background RDB transfer started by pid 133
+133:C 02 Nov 2023 01:38:42.193 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:42.203 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:42.249 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:42.268 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:42.271 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:42.272 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:42.297 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:47.219 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:47.221 * Background RDB transfer started by pid 134
+134:C 02 Nov 2023 01:38:47.221 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:47.224 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:47.236 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:47.248 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:47.250 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:47.251 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:47.324 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:52.251 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:52.259 * Background RDB transfer started by pid 135
+135:C 02 Nov 2023 01:38:52.260 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:52.269 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:52.309 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:52.322 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:52.324 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:52.326 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:52.365 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:38:57.290 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:38:57.299 * Background RDB transfer started by pid 136
+136:C 02 Nov 2023 01:38:57.300 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:38:57.309 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:38:57.346 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:38:57.360 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:38:57.363 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:38:57.365 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:38:57.404 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:02.325 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:02.330 * Background RDB transfer started by pid 137
+137:C 02 Nov 2023 01:39:02.330 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:02.335 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:02.361 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:02.375 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:02.377 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:02.379 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:02.434 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:07.355 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:07.357 * Background RDB transfer started by pid 138
+138:C 02 Nov 2023 01:39:07.358 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:07.360 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:07.370 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:07.377 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:07.378 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:07.379 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:07.460 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:12.382 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:12.392 * Background RDB transfer started by pid 139
+139:C 02 Nov 2023 01:39:12.393 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:12.403 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:12.445 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:12.464 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:12.466 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:12.468 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:12.498 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:17.422 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:17.432 * Background RDB transfer started by pid 140
+140:C 02 Nov 2023 01:39:17.434 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:17.443 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:17.468 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:17.477 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:17.478 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:17.479 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:17.537 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:22.463 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:22.471 * Background RDB transfer started by pid 141
+141:C 02 Nov 2023 01:39:22.474 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:22.482 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:22.511 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:22.526 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:22.528 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:22.529 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:22.576 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:27.503 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:27.511 * Background RDB transfer started by pid 142
+142:C 02 Nov 2023 01:39:27.513 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:27.522 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:27.555 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:27.568 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:27.569 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:27.571 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:27.617 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:32.538 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:32.542 * Background RDB transfer started by pid 143
+143:C 02 Nov 2023 01:39:32.542 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:32.546 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:32.561 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:32.569 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:32.570 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:32.571 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:32.645 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:37.565 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:37.571 * Background RDB transfer started by pid 144
+144:C 02 Nov 2023 01:39:37.571 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:37.577 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:37.611 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:37.630 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:37.631 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:37.633 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:37.675 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:42.597 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:42.599 * Background RDB transfer started by pid 145
+145:C 02 Nov 2023 01:39:42.599 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:42.601 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:42.611 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:42.617 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:42.618 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:42.619 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:42.702 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:47.623 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:47.627 * Background RDB transfer started by pid 146
+146:C 02 Nov 2023 01:39:47.627 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:47.633 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:47.656 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:47.666 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:47.667 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:47.668 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:47.733 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:52.658 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:52.662 * Background RDB transfer started by pid 147
+147:C 02 Nov 2023 01:39:52.662 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:52.666 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:52.686 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:52.703 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:52.705 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:52.706 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:52.765 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:39:57.688 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:39:57.692 * Background RDB transfer started by pid 148
+148:C 02 Nov 2023 01:39:57.694 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:39:57.698 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:39:57.722 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:39:57.734 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:39:57.735 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:39:57.736 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:39:57.796 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:02.719 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:02.726 * Background RDB transfer started by pid 149
+149:C 02 Nov 2023 01:40:02.728 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:02.737 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:02.774 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:02.787 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:02.788 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:02.790 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:02.832 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:07.754 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:07.755 * Background RDB transfer started by pid 150
+150:C 02 Nov 2023 01:40:07.755 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:07.757 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:07.770 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:07.780 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:07.782 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:07.783 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:07.858 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:12.779 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:12.781 * Background RDB transfer started by pid 151
+151:C 02 Nov 2023 01:40:12.781 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:12.782 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:12.796 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:12.803 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:12.804 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:12.805 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:12.883 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:17.806 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:17.810 * Background RDB transfer started by pid 152
+152:C 02 Nov 2023 01:40:17.811 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:17.815 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:17.841 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:17.850 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:17.851 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:17.852 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:17.913 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:22.833 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:22.835 * Background RDB transfer started by pid 153
+153:C 02 Nov 2023 01:40:22.836 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:22.837 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:22.851 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:22.857 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:22.858 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:22.859 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:22.938 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:27.855 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:27.857 * Background RDB transfer started by pid 154
+154:C 02 Nov 2023 01:40:27.858 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:27.859 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:27.875 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:27.883 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:27.884 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:27.885 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:27.959 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:32.877 * Starting BGSAVE for SYNC with target: replicas sockets
+155:C 02 Nov 2023 01:40:32.879 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:32.879 * Background RDB transfer started by pid 155
+1:M 02 Nov 2023 01:40:32.881 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:32.894 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:32.899 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:32.900 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:32.901 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:32.982 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:37.907 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:37.916 * Background RDB transfer started by pid 156
+156:C 02 Nov 2023 01:40:37.917 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:37.925 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:37.953 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:37.964 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:37.966 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:37.967 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:38.022 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:42.941 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:42.943 * Background RDB transfer started by pid 157
+157:C 02 Nov 2023 01:40:42.944 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:42.946 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:42.961 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:42.969 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:42.971 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:42.973 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:43.046 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:47.967 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:40:47.973 * Background RDB transfer started by pid 158
+158:C 02 Nov 2023 01:40:47.974 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:40:47.980 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:40:48.010 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:40:48.020 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:40:48.022 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:40:48.024 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:40:48.078 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:40:50.685 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:18.197 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:18.200 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:18.203 * Delay next BGSAVE for diskless SYNC
+1:M 02 Nov 2023 01:44:23.835 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:23.842 * Background RDB transfer started by pid 159
+159:C 02 Nov 2023 01:44:23.845 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:23.852 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:23.889 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:23.898 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:23.900 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:23.902 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:23.947 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:44:28.866 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:28.867 * Background RDB transfer started by pid 160
+160:C 02 Nov 2023 01:44:28.868 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:28.870 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:28.883 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:28.890 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:28.891 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:28.892 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:28.969 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:44:33.891 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:33.895 * Background RDB transfer started by pid 161
+161:C 02 Nov 2023 01:44:33.895 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:33.900 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:33.918 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:33.930 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:33.932 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:33.934 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:33.999 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:44:38.924 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:38.934 * Background RDB transfer started by pid 162
+162:C 02 Nov 2023 01:44:38.934 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:38.943 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:38.981 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:39.001 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:39.004 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:39.007 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:39.039 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:44:43.958 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:43.961 * Background RDB transfer started by pid 163
+163:C 02 Nov 2023 01:44:43.961 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:43.963 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:43.974 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:43.983 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:43.985 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:43.986 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:44.063 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:44:48.984 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:48.988 * Background RDB transfer started by pid 164
+164:C 02 Nov 2023 01:44:48.988 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:48.992 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:49.014 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:49.022 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:49.023 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:49.024 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:49.091 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:44:54.010 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:54.012 * Background RDB transfer started by pid 165
+165:C 02 Nov 2023 01:44:54.013 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:54.015 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:54.032 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:54.044 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:54.046 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:54.048 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:54.116 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:44:59.039 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:44:59.041 * Background RDB transfer started by pid 166
+166:C 02 Nov 2023 01:44:59.041 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:44:59.043 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:44:59.058 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:44:59.067 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:44:59.068 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:44:59.070 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:44:59.143 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:45:04.066 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:45:04.076 * Background RDB transfer started by pid 167
+167:C 02 Nov 2023 01:45:04.078 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:45:04.088 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:45:04.126 * Connection with replica 172.16.0.50:6379 lost.
+1:M 02 Nov 2023 01:45:04.142 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:45:04.144 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:45:04.145 * Current BGSAVE has socket target. Waiting for next BGSAVE for SYNC
+1:M 02 Nov 2023 01:45:04.182 * Background RDB transfer terminated with success
+1:signal-handler (1698860709) Received SIGTERM scheduling shutdown...
+1:M 02 Nov 2023 01:45:09.104 * User requested shutdown...
+1:M 02 Nov 2023 01:45:09.105 * Waiting for replicas before shutting down.
+1:M 02 Nov 2023 01:45:09.106 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:45:09.108 * Background RDB transfer started by pid 168
+168:C 02 Nov 2023 01:45:09.109 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:45:09.110 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:45:09.124 * Connection with replica client id #143 lost.
+1:M 02 Nov 2023 01:45:09.211 # There is a child saving an .rdb. Killing it!
+1:M 02 Nov 2023 01:45:09.213 * Calling fsync() on the AOF file.
+1:M 02 Nov 2023 01:45:09.215 * Saving the final RDB snapshot before exiting.
+1:M 02 Nov 2023 01:45:09.223 * DB saved on disk
+1:M 02 Nov 2023 01:45:09.224 * Removing the pid file.
+1:M 02 Nov 2023 01:45:09.225 # Redis is now ready to exit, bye bye...
+1:C 02 Nov 2023 01:45:15.543 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 02 Nov 2023 01:45:15.545 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 02 Nov 2023 01:45:15.547 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 02 Nov 2023 01:45:15.549 * Configuration loaded
+1:M 02 Nov 2023 01:45:15.551 * monotonic clock: POSIX clock_gettime
+1:M 02 Nov 2023 01:45:15.553 # Failed to write PID file: Permission denied
+1:M 02 Nov 2023 01:45:15.554 * Running mode=standalone, port=6379.
+1:M 02 Nov 2023 01:45:15.556 * Server initialized
+1:M 02 Nov 2023 01:45:15.569 * Reading RDB base file on AOF loading...
+1:M 02 Nov 2023 01:45:15.571 * Loading RDB produced by version 7.2.2
+1:M 02 Nov 2023 01:45:15.573 * RDB age 918 seconds
+1:M 02 Nov 2023 01:45:15.574 * RDB memory usage when created 0.83 Mb
+1:M 02 Nov 2023 01:45:15.576 * RDB is base AOF
+1:M 02 Nov 2023 01:45:15.578 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 02 Nov 2023 01:45:15.580 * DB loaded from base file appendonly.aof.1.base.rdb: 0.013 seconds
+1:M 02 Nov 2023 01:45:15.585 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.003 seconds
+1:M 02 Nov 2023 01:45:15.587 * DB loaded from append only file: 0.024 seconds
+1:M 02 Nov 2023 01:45:15.591 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 02 Nov 2023 01:45:15.593 * Ready to accept connections tcp
+1:M 02 Nov 2023 01:45:15.920 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 02 Nov 2023 01:45:15.921 * Full resync requested by replica 172.16.0.50:6379
+1:M 02 Nov 2023 01:45:15.923 * Replication backlog created, my new replication IDs are '5d6d69f686483462904b9da4f6ff73d3f134f138' and '0000000000000000000000000000000000000000'
+1:M 02 Nov 2023 01:45:15.924 * Delay next BGSAVE for diskless SYNC
+1:M 02 Nov 2023 01:45:20.511 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 02 Nov 2023 01:45:20.516 * Background RDB transfer started by pid 20
+20:C 02 Nov 2023 01:45:20.516 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 02 Nov 2023 01:45:20.520 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 02 Nov 2023 01:45:20.559 * Background RDB transfer terminated with success
+1:M 02 Nov 2023 01:45:20.561 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 02 Nov 2023 01:45:20.562 * Synchronization with replica 172.16.0.50:6379 succeeded
