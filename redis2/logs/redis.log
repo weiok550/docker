@@ -1584,3 +1584,38 @@
 1:S 02 Nov 2023 01:45:20.666 * Removing the history file appendonly.aof.1.incr.aof in the background
 1:S 02 Nov 2023 01:45:20.667 * Removing the history file appendonly.aof.1.base.rdb in the background
 1:S 02 Nov 2023 01:45:20.672 * Background AOF rewrite finished successfully
+1:C 18 Nov 2023 11:01:50.964 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 18 Nov 2023 11:01:50.966 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Nov 2023 11:01:50.966 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Nov 2023 11:01:50.967 * Configuration loaded
+1:S 18 Nov 2023 11:01:50.969 * monotonic clock: POSIX clock_gettime
+1:S 18 Nov 2023 11:01:50.979 # Failed to write PID file: Permission denied
+1:S 18 Nov 2023 11:01:50.980 * Running mode=standalone, port=6379.
+1:S 18 Nov 2023 11:01:50.990 * Server initialized
+1:S 18 Nov 2023 11:01:50.996 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:S 18 Nov 2023 11:01:50.998 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:S 18 Nov 2023 11:01:50.998 * Ready to accept connections tcp
+1:S 18 Nov 2023 11:01:51.001 * Connecting to MASTER 172.16.0.40:6379
+1:S 18 Nov 2023 11:01:51.002 * MASTER <-> REPLICA sync started
+1:S 18 Nov 2023 11:01:51.003 * Non blocking connect for SYNC fired the event.
+1:S 18 Nov 2023 11:01:51.022 * Master replied to PING, replication can continue...
+1:S 18 Nov 2023 11:01:51.023 * Partial resynchronization not possible (no cached master)
+1:S 18 Nov 2023 11:01:56.081 * Full resync from master: bd0b9b86c6bfd3c29dbc9dbf341050c98accfbc1:0
+1:S 18 Nov 2023 11:01:56.085 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 18 Nov 2023 11:01:56.087 * MASTER <-> REPLICA sync: Flushing old data
+1:S 18 Nov 2023 11:01:56.088 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 18 Nov 2023 11:01:56.091 * Loading RDB produced by version 7.2.2
+1:S 18 Nov 2023 11:01:56.092 * RDB age 0 seconds
+1:S 18 Nov 2023 11:01:56.094 * RDB memory usage when created 0.90 Mb
+1:S 18 Nov 2023 11:01:56.095 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 18 Nov 2023 11:01:56.097 * MASTER <-> REPLICA sync: Finished with success
+1:S 18 Nov 2023 11:01:56.101 * Creating AOF incr file temp-appendonly.aof.incr on background rewrite
+1:S 18 Nov 2023 11:01:56.105 * Background append only file rewriting started by pid 35
+35:C 18 Nov 2023 11:01:56.107 * Successfully created the temporary AOF base file temp-rewriteaof-bg-35.aof
+35:C 18 Nov 2023 11:01:56.110 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+1:S 18 Nov 2023 11:01:56.161 * Background AOF rewrite terminated with success
+1:S 18 Nov 2023 11:01:56.162 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-35.aof into appendonly.aof.2.base.rdb
+1:S 18 Nov 2023 11:01:56.164 * Successfully renamed the temporary AOF incr file temp-appendonly.aof.incr into appendonly.aof.2.incr.aof
+1:S 18 Nov 2023 11:01:56.169 * Removing the history file appendonly.aof.1.incr.aof in the background
+1:S 18 Nov 2023 11:01:56.171 * Removing the history file appendonly.aof.1.base.rdb in the background
+1:S 18 Nov 2023 11:01:56.176 * Background AOF rewrite finished successfully

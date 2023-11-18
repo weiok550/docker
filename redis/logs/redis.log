@@ -1659,3 +1659,25 @@
 1:M 02 Nov 2023 01:45:20.559 * Background RDB transfer terminated with success
 1:M 02 Nov 2023 01:45:20.561 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
 1:M 02 Nov 2023 01:45:20.562 * Synchronization with replica 172.16.0.50:6379 succeeded
+1:C 18 Nov 2023 11:01:50.980 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 18 Nov 2023 11:01:50.982 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Nov 2023 11:01:50.983 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Nov 2023 11:01:50.983 * Configuration loaded
+1:M 18 Nov 2023 11:01:50.985 * monotonic clock: POSIX clock_gettime
+1:M 18 Nov 2023 11:01:50.995 # Failed to write PID file: Permission denied
+1:M 18 Nov 2023 11:01:50.996 * Running mode=standalone, port=6379.
+1:M 18 Nov 2023 11:01:51.006 * Server initialized
+1:M 18 Nov 2023 11:01:51.011 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 18 Nov 2023 11:01:51.013 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 18 Nov 2023 11:01:51.014 * Ready to accept connections tcp
+1:M 18 Nov 2023 11:01:51.024 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 18 Nov 2023 11:01:51.024 * Full resync requested by replica 172.16.0.50:6379
+1:M 18 Nov 2023 11:01:51.025 * Replication backlog created, my new replication IDs are 'bd0b9b86c6bfd3c29dbc9dbf341050c98accfbc1' and '0000000000000000000000000000000000000000'
+1:M 18 Nov 2023 11:01:51.026 * Delay next BGSAVE for diskless SYNC
+1:M 18 Nov 2023 11:01:56.080 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 18 Nov 2023 11:01:56.082 * Background RDB transfer started by pid 35
+35:C 18 Nov 2023 11:01:56.086 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+1:M 18 Nov 2023 11:01:56.087 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 18 Nov 2023 11:01:56.106 * Background RDB transfer terminated with success
+1:M 18 Nov 2023 11:01:56.107 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 18 Nov 2023 11:01:56.108 * Synchronization with replica 172.16.0.50:6379 succeeded
