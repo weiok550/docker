@@ -12,6 +12,6 @@
   Host *
     AddKeysToAgent yes
     UseKeychain yes
-    IdentifyFile ~\.ssh\id_rsa
+    IdentityFile ~\.ssh\id_rsa
     ServerAliveInterval 30
   ```
