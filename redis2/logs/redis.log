@@ -1619,3 +1619,154 @@
 1:S 18 Nov 2023 11:01:56.169 * Removing the history file appendonly.aof.1.incr.aof in the background
 1:S 18 Nov 2023 11:01:56.171 * Removing the history file appendonly.aof.1.base.rdb in the background
 1:S 18 Nov 2023 11:01:56.176 * Background AOF rewrite finished successfully
+1:C 19 Nov 2023 19:18:30.467 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 19 Nov 2023 19:18:30.468 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 19 Nov 2023 19:18:30.469 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 19 Nov 2023 19:18:30.469 * Configuration loaded
+1:S 19 Nov 2023 19:18:30.471 * monotonic clock: POSIX clock_gettime
+1:S 19 Nov 2023 19:18:30.482 # Failed to write PID file: Permission denied
+1:S 19 Nov 2023 19:18:30.483 * Running mode=standalone, port=6379.
+1:S 19 Nov 2023 19:18:30.493 * Server initialized
+1:S 19 Nov 2023 19:18:30.499 * Reading RDB base file on AOF loading...
+1:S 19 Nov 2023 19:18:30.500 * Loading RDB produced by version 7.2.2
+1:S 19 Nov 2023 19:18:30.501 * RDB age 116194 seconds
+1:S 19 Nov 2023 19:18:30.502 * RDB memory usage when created 0.84 Mb
+1:S 19 Nov 2023 19:18:30.502 * RDB is base AOF
+1:S 19 Nov 2023 19:18:30.503 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 19 Nov 2023 19:18:30.506 * DB loaded from base file appendonly.aof.2.base.rdb: 0.008 seconds
+1:S 19 Nov 2023 19:18:30.508 * DB loaded from incr file appendonly.aof.2.incr.aof: 0.002 seconds
+1:S 19 Nov 2023 19:18:30.511 * DB loaded from append only file: 0.013 seconds
+1:S 19 Nov 2023 19:18:30.511 * Opening AOF incr file appendonly.aof.2.incr.aof on server start
+1:S 19 Nov 2023 19:18:30.512 * Ready to accept connections tcp
+1:S 19 Nov 2023 19:18:31.426 * Connecting to MASTER 172.16.0.40:6379
+1:S 19 Nov 2023 19:18:31.427 * MASTER <-> REPLICA sync started
+1:S 19 Nov 2023 19:18:31.428 * Non blocking connect for SYNC fired the event.
+1:S 19 Nov 2023 19:18:31.432 * Master replied to PING, replication can continue...
+1:S 19 Nov 2023 19:18:31.433 * Partial resynchronization not possible (no cached master)
+1:S 19 Nov 2023 19:18:36.741 * Full resync from master: 1f828101c582e566763bdbedb83a8d5eea048c34:14
+1:S 19 Nov 2023 19:18:36.763 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 19 Nov 2023 19:18:36.765 * MASTER <-> REPLICA sync: Flushing old data
+1:S 19 Nov 2023 19:18:36.767 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 19 Nov 2023 19:18:36.772 * Loading RDB produced by version 7.2.2
+1:S 19 Nov 2023 19:18:36.772 * RDB age 0 seconds
+1:S 19 Nov 2023 19:18:36.773 * RDB memory usage when created 0.92 Mb
+1:S 19 Nov 2023 19:18:36.777 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:S 19 Nov 2023 19:18:36.781 * MASTER <-> REPLICA sync: Finished with success
+1:S 19 Nov 2023 19:18:36.785 * Creating AOF incr file temp-appendonly.aof.incr on background rewrite
+1:S 19 Nov 2023 19:18:36.789 * Background append only file rewriting started by pid 35
+35:C 19 Nov 2023 19:18:36.796 * Successfully created the temporary AOF base file temp-rewriteaof-bg-35.aof
+35:C 19 Nov 2023 19:18:36.797 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+1:S 19 Nov 2023 19:18:36.845 * Background AOF rewrite terminated with success
+1:S 19 Nov 2023 19:18:36.846 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-35.aof into appendonly.aof.3.base.rdb
+1:S 19 Nov 2023 19:18:36.847 * Successfully renamed the temporary AOF incr file temp-appendonly.aof.incr into appendonly.aof.3.incr.aof
+1:S 19 Nov 2023 19:18:36.850 * Removing the history file appendonly.aof.2.incr.aof in the background
+1:S 19 Nov 2023 19:18:36.851 * Removing the history file appendonly.aof.2.base.rdb in the background
+1:S 19 Nov 2023 19:18:36.852 * Background AOF rewrite finished successfully
+1:S 19 Nov 2023 20:18:31.020 * 1 changes in 3600 seconds. Saving...
+1:S 19 Nov 2023 20:18:31.027 * Background saving started by pid 37
+37:C 19 Nov 2023 20:18:31.044 * DB saved on disk
+37:C 19 Nov 2023 20:18:31.046 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+1:S 19 Nov 2023 20:18:31.131 * Background saving terminated with success
+1:S 19 Nov 2023 21:13:23.304 * Connection with master lost.
+1:S 19 Nov 2023 21:13:23.306 * Caching the disconnected master state.
+1:S 19 Nov 2023 21:13:23.308 * Reconnecting to MASTER 172.16.0.40:6379
+1:S 19 Nov 2023 21:13:23.310 * MASTER <-> REPLICA sync started
+1:S 19 Nov 2023 21:13:23.311 * Non blocking connect for SYNC fired the event.
+1:S 19 Nov 2023 21:13:23.313 * Master replied to PING, replication can continue...
+1:S 19 Nov 2023 21:13:23.315 * Trying a partial resynchronization (request 1f828101c582e566763bdbedb83a8d5eea048c34:7939).
+1:S 19 Nov 2023 21:13:23.317 * Successful partial resynchronization with master.
+1:S 19 Nov 2023 21:13:23.319 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 19 Nov 2023 21:25:49.681 # MASTER timeout: no data nor PING received...
+1:S 19 Nov 2023 21:25:49.682 * Connection with master lost.
+1:S 19 Nov 2023 21:25:49.682 * Caching the disconnected master state.
+1:S 19 Nov 2023 21:25:49.684 * Reconnecting to MASTER 172.16.0.40:6379
+1:S 19 Nov 2023 21:25:49.686 * MASTER <-> REPLICA sync started
+1:S 19 Nov 2023 21:25:49.687 * Non blocking connect for SYNC fired the event.
+1:S 19 Nov 2023 21:25:49.688 * Master replied to PING, replication can continue...
+1:S 19 Nov 2023 21:25:49.690 * Trying a partial resynchronization (request 1f828101c582e566763bdbedb83a8d5eea048c34:7981).
+1:S 19 Nov 2023 21:25:49.692 * Successful partial resynchronization with master.
+1:S 19 Nov 2023 21:25:49.693 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 19 Nov 2023 22:10:45.307 * Connection with master lost.
+1:S 19 Nov 2023 22:10:45.308 * Caching the disconnected master state.
+1:S 19 Nov 2023 22:10:45.309 * Reconnecting to MASTER 172.16.0.40:6379
+1:S 19 Nov 2023 22:10:45.311 * MASTER <-> REPLICA sync started
+1:S 19 Nov 2023 22:10:45.312 * Non blocking connect for SYNC fired the event.
+1:S 19 Nov 2023 22:10:45.314 * Master replied to PING, replication can continue...
+1:S 19 Nov 2023 22:10:45.315 * Trying a partial resynchronization (request 1f828101c582e566763bdbedb83a8d5eea048c34:10305).
+1:S 19 Nov 2023 22:10:45.318 * Successful partial resynchronization with master.
+1:S 19 Nov 2023 22:10:45.319 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 19 Nov 2023 22:26:55.899 * Connection with master lost.
+1:S 19 Nov 2023 22:26:55.899 * Caching the disconnected master state.
+1:S 19 Nov 2023 22:26:55.900 * Reconnecting to MASTER 172.16.0.40:6379
+1:S 19 Nov 2023 22:26:55.900 * MASTER <-> REPLICA sync started
+1:S 19 Nov 2023 22:26:55.901 * Non blocking connect for SYNC fired the event.
+1:S 19 Nov 2023 22:26:55.902 * Master replied to PING, replication can continue...
+1:S 19 Nov 2023 22:26:55.902 * Trying a partial resynchronization (request 1f828101c582e566763bdbedb83a8d5eea048c34:10375).
+1:S 19 Nov 2023 22:26:55.903 * Successful partial resynchronization with master.
+1:S 19 Nov 2023 22:26:55.904 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 19 Nov 2023 22:42:43.833 # MASTER timeout: no data nor PING received...
+1:S 19 Nov 2023 22:42:43.835 * Connection with master lost.
+1:S 19 Nov 2023 22:42:43.836 * Caching the disconnected master state.
+1:S 19 Nov 2023 22:42:43.837 * Reconnecting to MASTER 172.16.0.40:6379
+1:S 19 Nov 2023 22:42:43.840 * MASTER <-> REPLICA sync started
+1:S 19 Nov 2023 22:42:43.841 * Non blocking connect for SYNC fired the event.
+1:S 19 Nov 2023 22:42:43.841 * Master replied to PING, replication can continue...
+1:S 19 Nov 2023 22:42:43.842 * Trying a partial resynchronization (request 1f828101c582e566763bdbedb83a8d5eea048c34:10571).
+1:S 19 Nov 2023 22:42:43.844 * Successful partial resynchronization with master.
+1:S 19 Nov 2023 22:42:43.845 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:signal-handler (1700406491) Received SIGTERM scheduling shutdown...
+1:S 19 Nov 2023 23:08:11.144 * User requested shutdown...
+1:S 19 Nov 2023 23:08:11.144 * Calling fsync() on the AOF file.
+1:S 19 Nov 2023 23:08:11.145 * Saving the final RDB snapshot before exiting.
+1:S 19 Nov 2023 23:08:11.147 * DB saved on disk
+1:S 19 Nov 2023 23:08:11.148 * Removing the pid file.
+1:S 19 Nov 2023 23:08:11.148 # Redis is now ready to exit, bye bye...
+1:C 20 Nov 2023 14:48:22.563 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 20 Nov 2023 14:48:22.565 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 20 Nov 2023 14:48:22.566 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 20 Nov 2023 14:48:22.567 * Configuration loaded
+1:S 20 Nov 2023 14:48:22.569 * monotonic clock: POSIX clock_gettime
+1:S 20 Nov 2023 14:48:22.580 # Failed to write PID file: Permission denied
+1:S 20 Nov 2023 14:48:22.582 * Running mode=standalone, port=6379.
+1:S 20 Nov 2023 14:48:22.593 * Server initialized
+1:S 20 Nov 2023 14:48:22.599 * Reading RDB base file on AOF loading...
+1:S 20 Nov 2023 14:48:22.601 * Loading RDB produced by version 7.2.2
+1:S 20 Nov 2023 14:48:22.601 * RDB age 70186 seconds
+1:S 20 Nov 2023 14:48:22.602 * RDB memory usage when created 0.84 Mb
+1:S 20 Nov 2023 14:48:22.603 * RDB is base AOF
+1:S 20 Nov 2023 14:48:22.604 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:S 20 Nov 2023 14:48:22.608 * DB loaded from base file appendonly.aof.3.base.rdb: 0.010 seconds
+1:S 20 Nov 2023 14:48:22.609 * DB loaded from append only file: 0.011 seconds
+1:S 20 Nov 2023 14:48:22.609 * Opening AOF incr file appendonly.aof.3.incr.aof on server start
+1:S 20 Nov 2023 14:48:22.610 * Ready to accept connections tcp
+1:S 20 Nov 2023 14:48:23.522 * Connecting to MASTER 172.16.0.40:6379
+1:S 20 Nov 2023 14:48:23.523 * MASTER <-> REPLICA sync started
+1:S 20 Nov 2023 14:48:23.524 * Non blocking connect for SYNC fired the event.
+1:S 20 Nov 2023 14:48:23.528 * Master replied to PING, replication can continue...
+1:S 20 Nov 2023 14:48:23.529 * Partial resynchronization not possible (no cached master)
+1:S 20 Nov 2023 14:48:28.593 * Full resync from master: 26f03e82c7a9e679d065d2e779d07ef9f62c040d:0
+1:S 20 Nov 2023 14:48:28.613 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 20 Nov 2023 14:48:28.616 * MASTER <-> REPLICA sync: Flushing old data
+1:S 20 Nov 2023 14:48:28.618 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 20 Nov 2023 14:48:28.624 * Loading RDB produced by version 7.2.2
+1:S 20 Nov 2023 14:48:28.624 * RDB age 0 seconds
+1:S 20 Nov 2023 14:48:28.625 * RDB memory usage when created 0.90 Mb
+1:S 20 Nov 2023 14:48:28.627 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:S 20 Nov 2023 14:48:28.634 * MASTER <-> REPLICA sync: Finished with success
+1:S 20 Nov 2023 14:48:28.637 * Creating AOF incr file temp-appendonly.aof.incr on background rewrite
+1:S 20 Nov 2023 14:48:28.641 * Background append only file rewriting started by pid 34
+34:C 20 Nov 2023 14:48:28.649 * Successfully created the temporary AOF base file temp-rewriteaof-bg-34.aof
+34:C 20 Nov 2023 14:48:28.651 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+1:S 20 Nov 2023 14:48:28.674 * Background AOF rewrite terminated with success
+1:S 20 Nov 2023 14:48:28.675 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-34.aof into appendonly.aof.4.base.rdb
+1:S 20 Nov 2023 14:48:28.676 * Successfully renamed the temporary AOF incr file temp-appendonly.aof.incr into appendonly.aof.4.incr.aof
+1:S 20 Nov 2023 14:48:28.679 * Removing the history file appendonly.aof.3.incr.aof in the background
+1:S 20 Nov 2023 14:48:28.679 * Removing the history file appendonly.aof.3.base.rdb in the background
+1:S 20 Nov 2023 14:48:28.680 * Background AOF rewrite finished successfully
+1:signal-handler (1700462968) Received SIGTERM scheduling shutdown...
+1:S 20 Nov 2023 14:49:28.627 * User requested shutdown...
+1:S 20 Nov 2023 14:49:28.627 * Calling fsync() on the AOF file.
+1:S 20 Nov 2023 14:49:28.628 * Saving the final RDB snapshot before exiting.
+1:S 20 Nov 2023 14:49:28.630 * DB saved on disk
+1:S 20 Nov 2023 14:49:28.631 * Removing the pid file.
+1:S 20 Nov 2023 14:49:28.631 # Redis is now ready to exit, bye bye...

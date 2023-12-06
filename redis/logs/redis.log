@@ -1681,3 +1681,102 @@
 1:M 18 Nov 2023 11:01:56.106 * Background RDB transfer terminated with success
 1:M 18 Nov 2023 11:01:56.107 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
 1:M 18 Nov 2023 11:01:56.108 * Synchronization with replica 172.16.0.50:6379 succeeded
+1:C 19 Nov 2023 19:18:30.577 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 19 Nov 2023 19:18:30.580 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 19 Nov 2023 19:18:30.580 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 19 Nov 2023 19:18:30.580 * Configuration loaded
+1:M 19 Nov 2023 19:18:30.584 * monotonic clock: POSIX clock_gettime
+1:M 19 Nov 2023 19:18:30.595 # Failed to write PID file: Permission denied
+1:M 19 Nov 2023 19:18:30.596 * Running mode=standalone, port=6379.
+1:M 19 Nov 2023 19:18:30.610 * Server initialized
+1:M 19 Nov 2023 19:18:30.617 * Reading RDB base file on AOF loading...
+1:M 19 Nov 2023 19:18:30.618 * Loading RDB produced by version 7.2.2
+1:M 19 Nov 2023 19:18:30.619 * RDB age 116199 seconds
+1:M 19 Nov 2023 19:18:30.620 * RDB memory usage when created 0.83 Mb
+1:M 19 Nov 2023 19:18:30.620 * RDB is base AOF
+1:M 19 Nov 2023 19:18:30.621 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 19 Nov 2023 19:18:30.624 * DB loaded from base file appendonly.aof.1.base.rdb: 0.008 seconds
+1:M 19 Nov 2023 19:18:30.626 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.001 seconds
+1:M 19 Nov 2023 19:18:30.626 * DB loaded from append only file: 0.010 seconds
+1:M 19 Nov 2023 19:18:30.627 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 19 Nov 2023 19:18:30.627 * Ready to accept connections tcp
+1:M 19 Nov 2023 19:18:31.434 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 19 Nov 2023 19:18:31.434 * Full resync requested by replica 172.16.0.50:6379
+1:M 19 Nov 2023 19:18:31.435 * Replication backlog created, my new replication IDs are '1f828101c582e566763bdbedb83a8d5eea048c34' and '0000000000000000000000000000000000000000'
+1:M 19 Nov 2023 19:18:31.435 * Delay next BGSAVE for diskless SYNC
+1:M 19 Nov 2023 19:18:36.738 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 19 Nov 2023 19:18:36.747 * Background RDB transfer started by pid 33
+33:C 19 Nov 2023 19:18:36.763 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+1:M 19 Nov 2023 19:18:36.765 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 19 Nov 2023 19:18:36.790 * Background RDB transfer terminated with success
+1:M 19 Nov 2023 19:18:36.791 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 19 Nov 2023 19:18:36.791 * Synchronization with replica 172.16.0.50:6379 succeeded
+1:M 19 Nov 2023 20:18:31.010 * 1 changes in 3600 seconds. Saving...
+1:M 19 Nov 2023 20:18:31.015 * Background saving started by pid 35
+35:C 19 Nov 2023 20:18:31.037 * DB saved on disk
+35:C 19 Nov 2023 20:18:31.039 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+1:M 19 Nov 2023 20:18:31.123 * Background saving terminated with success
+1:M 19 Nov 2023 21:13:23.297 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 19 Nov 2023 21:13:23.299 * Connection with replica 172.16.0.50:6379 lost.
+1:M 19 Nov 2023 21:13:23.316 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 19 Nov 2023 21:13:23.317 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 7939.
+1:M 19 Nov 2023 21:25:49.685 * Connection with replica 172.16.0.50:6379 lost.
+1:M 19 Nov 2023 21:25:49.691 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 19 Nov 2023 21:25:49.692 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 7981.
+1:M 19 Nov 2023 22:10:45.303 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 19 Nov 2023 22:10:45.304 * Connection with replica 172.16.0.50:6379 lost.
+1:M 19 Nov 2023 22:10:45.317 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 19 Nov 2023 22:10:45.318 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 10305.
+1:M 19 Nov 2023 22:26:55.897 # Disconnecting timedout replica (streaming sync): 172.16.0.50:6379
+1:M 19 Nov 2023 22:26:55.898 * Connection with replica 172.16.0.50:6379 lost.
+1:M 19 Nov 2023 22:26:55.903 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 19 Nov 2023 22:26:55.903 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 10375.
+1:M 19 Nov 2023 22:42:43.838 * Connection with replica 172.16.0.50:6379 lost.
+1:M 19 Nov 2023 22:42:43.843 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 19 Nov 2023 22:42:43.844 * Partial resynchronization request from 172.16.0.50:6379 accepted. Sending 0 bytes of backlog starting from offset 10571.
+1:signal-handler (1700406491) Received SIGTERM scheduling shutdown...
+1:M 19 Nov 2023 23:08:11.137 * User requested shutdown...
+1:M 19 Nov 2023 23:08:11.138 * 1 of 1 replicas are in sync when shutting down.
+1:M 19 Nov 2023 23:08:11.138 * Calling fsync() on the AOF file.
+1:M 19 Nov 2023 23:08:11.138 * Saving the final RDB snapshot before exiting.
+1:M 19 Nov 2023 23:08:11.142 * DB saved on disk
+1:M 19 Nov 2023 23:08:11.142 * Removing the pid file.
+1:M 19 Nov 2023 23:08:11.143 # Redis is now ready to exit, bye bye...
+1:C 20 Nov 2023 14:48:22.394 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:C 20 Nov 2023 14:48:22.399 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 20 Nov 2023 14:48:22.404 * Redis version=7.2.2, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 20 Nov 2023 14:48:22.407 * Configuration loaded
+1:M 20 Nov 2023 14:48:22.412 * monotonic clock: POSIX clock_gettime
+1:M 20 Nov 2023 14:48:22.426 # Failed to write PID file: Permission denied
+1:M 20 Nov 2023 14:48:22.428 * Running mode=standalone, port=6379.
+1:M 20 Nov 2023 14:48:22.442 * Server initialized
+1:M 20 Nov 2023 14:48:22.456 * Reading RDB base file on AOF loading...
+1:M 20 Nov 2023 14:48:22.458 * Loading RDB produced by version 7.2.2
+1:M 20 Nov 2023 14:48:22.461 * RDB age 186391 seconds
+1:M 20 Nov 2023 14:48:22.463 * RDB memory usage when created 0.83 Mb
+1:M 20 Nov 2023 14:48:22.465 * RDB is base AOF
+1:M 20 Nov 2023 14:48:22.466 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 20 Nov 2023 14:48:22.473 * DB loaded from base file appendonly.aof.1.base.rdb: 0.017 seconds
+1:M 20 Nov 2023 14:48:22.480 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.005 seconds
+1:M 20 Nov 2023 14:48:22.483 * DB loaded from append only file: 0.030 seconds
+1:M 20 Nov 2023 14:48:22.490 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 20 Nov 2023 14:48:22.492 * Ready to accept connections tcp
+1:M 20 Nov 2023 14:48:23.530 * Replica 172.16.0.50:6379 asks for synchronization
+1:M 20 Nov 2023 14:48:23.530 * Full resync requested by replica 172.16.0.50:6379
+1:M 20 Nov 2023 14:48:23.531 * Replication backlog created, my new replication IDs are '26f03e82c7a9e679d065d2e779d07ef9f62c040d' and '0000000000000000000000000000000000000000'
+1:M 20 Nov 2023 14:48:23.531 * Delay next BGSAVE for diskless SYNC
+1:M 20 Nov 2023 14:48:28.589 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 20 Nov 2023 14:48:28.599 * Background RDB transfer started by pid 35
+35:C 20 Nov 2023 14:48:28.614 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+1:M 20 Nov 2023 14:48:28.616 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 20 Nov 2023 14:48:28.642 * Background RDB transfer terminated with success
+1:M 20 Nov 2023 14:48:28.643 * Streamed RDB transfer with replica 172.16.0.50:6379 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 20 Nov 2023 14:48:28.643 * Synchronization with replica 172.16.0.50:6379 succeeded
+1:signal-handler (1700462968) Received SIGTERM scheduling shutdown...
+1:M 20 Nov 2023 14:49:28.627 * User requested shutdown...
+1:M 20 Nov 2023 14:49:28.627 * 1 of 1 replicas are in sync when shutting down.
+1:M 20 Nov 2023 14:49:28.628 * Calling fsync() on the AOF file.
+1:M 20 Nov 2023 14:49:28.628 * Saving the final RDB snapshot before exiting.
+1:M 20 Nov 2023 14:49:28.631 * DB saved on disk
+1:M 20 Nov 2023 14:49:28.631 * Removing the pid file.
+1:M 20 Nov 2023 14:49:28.632 # Redis is now ready to exit, bye bye...

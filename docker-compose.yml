@@ -19,7 +19,7 @@ services:
     volumes:
       - ./mysql/conf.d:/etc/mysql/conf.d #mysql配置文件目录
       - ./mysql/data:/var/lib/mysql #mysql数据存放目录
-      - ./mysql/log:/var/log/mysqld # mysql错误日志
+      - ./mysql/logs:/var/log/mysqld # mysql错误日志
     networks:
       internal_net:
         ipv4_address: 172.16.0.10
@@ -77,7 +77,7 @@ services:
     command: redis-server  /redis/conf/redis.conf # 启动redis-server 配置文件路径要以容器中的路径为准
     
     
-  redis2:
+  redis-back:
     image: redis:7.2.2
     container_name: redis2
     #platform: linux/amd64
